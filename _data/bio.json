@@ -34,12 +34,12 @@
       ]
     },
     {
-      "name": "data",
+      "name": "Education",
       "keywords": [
       ]
     },
     {
-      "name": "artificial intelligence",
+      "name": "Technology Integration",
       "keywords": [
       ]
     }
@@ -52,9 +52,7 @@
         "C",
         "C++",
         "Java",
-        "Javascript",
-        "Assembly",
-        "Common Lisp"
+        "Javascript"
       ]
     },
     {
@@ -62,91 +60,69 @@
       "level": "",
       "keywords": [
         "MacOS",
-        "Ubuntu",
-        "Git/GitHub",
-        "g++",
-        "TI LaunchPad"
+        "Linux",
+        "Windows"
       ]
     }
   ],
   "education": [
     {
       "institution": "University of Hawaii, Honolulu, HI",
-      "area": "Computer Science (expected Spring, 2018)",
+      "area": "Computer Science (expected Spring, 2020)",
       "studyType": "B.S.",
-      "startDate": "2013-09-01",
+      "startDate": "2017-09-01",
       "endDate": "Present",
       "gpa": "",
       "courses": [
       ]
-    }
+    },
+    {
+      "institution": "Leeward Community College, Honolulu, HI",
+      "area": "Informational and Computer Science",
+      "studyType": "A.S.",
+      "startDate": "2014-09-01",
+      "endDate": "2017-06-01",
+      "gpa": "4.0",
+      "specializations": [
+        "Software Development",
+        "Information Security",
+        "Network Support"
+      ]
+    },    
   ],
   "work": [
     {
-      "company": "UH Manoa Board of Publications",
-      "position": "Web Developer",
+      "company": "Leeward Community College",
+      "position": "Lectuer",
       "website": "",
-      "startDate": "2015-08-01",
+      "startDate": "2017-01-01",
       "endDate": "Present",
-      "summary": "Head of online presence for Ka Leo",
+      "summary": "",
       "highlights": [
-        "Maintain, update, and oversee official college newspaper website",
-        "Drive, design and build student-community projects for UH Manoa"
       ]
     },
     {
-      "company": "UH Information Technology Services",
-      "position": "Help Desk Consultant",
+      "company": "Leeward Community College",
+      "position": "Student Help Desk - Student Manager",
       "website": "http://www.hawaii.edu/its/",
-      "startDate": "2015-01-01",
-      "endDate": "2016-03-15",
-      "summary": "",
-      "highlights": [
-        "Troubleshoot software, hardware and networking issues over the phone",
-        "Answer phone and email responses to the ITS Help Desk"
-      ]
-    }
-  ],
-  "volunteer": [
-    {
-      "organization": "Center for Renewable Energy and Island Sustainability",
-      "website": "http://manoa.hawaii.edu/reis",
-      "position": "Software Developer",
       "startDate": "2016-01-01",
-      "endDate": "Present",
-      "summary": "Lead developer for weather sensing project",
+      "endDate": "2016-06-15",
+      "summary": "Started up the Leeward Community College Student Help Desk"
       "highlights": [
-        "Design firmware for distributed weather sensor network",
-        "Maintain custom data collection and storage infrastructure"
-      ]
-    },
-    {
-      "organization": "",
-      "website": "",
-      "position": "Professional organization involvement",
-      "startDate": "",
-      "endDate": "",
-      "summary": "",
-      "highlights": [
-        "Chair, ACM Manoa, 2016-Present",
-        "Member, IEEE Student Branch, 2014-Present",
-        "Webmaster/IT Officer, IEEE Student Branch, UH Manoa, 2012-2013"
+        "creating a security plan and operations manuals",
+        "creating policies and proceedures manuals",
+        "troubleshoot software, hardware and networking issues over the phone",
+        "answer phone and email responses to the Help Desk"
       ]
     }
   ],
-  "awards": [
+  "professional memberships": [
     {
-      "title": "B+ Scholarship",
-      "date": "2013-Present",
-      "awarder": "State of Hawaii",
-      "summary": "Scholarships awarded to incoming freshmen and continuing students who complete a rigorous high school curriculum with a minimum overall GPA of 3.0 at a Hawai'i public school."
+      "title": "Phi Theta Kappa",
+      "date": "2015-Present",
+      "awarder": "Leeward Community College Chapter",
+      "summary": "National Honor Society for Two Year Colleges."
     },
-    {
-      "title": "First place",
-      "date": "2015",
-      "awarder": "University of Hawaii Micromouse Competition",
-      "summary": "My team won first place in 2015.  See my portfolio site for more details."
-    }
   ],
   "references": [
     {
