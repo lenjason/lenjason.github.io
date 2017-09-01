@@ -77,6 +77,19 @@
         "ICS 311",
         "ICS 314"
       ]
+    },
+    {
+      "institution": "Leeward Community College, Honolulu, HI",
+      "area": "Information and Computer Science",
+      "studyType": "A.S.",
+      "startDate": "2014-09-01",
+      "endDate": "2017-06-01",
+      "gpa": "4.0",
+      "specilizations": [
+        "Software Development",
+        "Information Security",
+        "Network Support"
+      ]
     }
   ],
   "work": [
