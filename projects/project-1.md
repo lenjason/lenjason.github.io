@@ -3,7 +3,7 @@ layout: project
 type: project
 image: images/MSImage.jpg
 title: Monster Strike Database
-permalink: projects/micromouse
+permalink: 
 date: 2016
 labels:
   - MS Access
