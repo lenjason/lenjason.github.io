@@ -2,7 +2,7 @@
 layout: project
 type: project
 image: images/fCC.jpg
-title: freeCodeCamp: Basic Java Script
+title: freeCodeCamp Basic Java Script
 permalink: 
 date: 2017
 labels:
