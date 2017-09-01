@@ -21,4 +21,6 @@ Monster Strike is like many mobile device games that have collectable monsters/c
 
 For this project I was the team lead and complete over 60% of the work for this project including all of the manipulation of the MS Access Database and associatied user interface.  I also worte most of the technical maintenance manual documentation and about a third of the user manual documentation.
 
+<a href="https://lenjason.github.io/projects/MonsterStrikePPT.pptx">PowerPoint of the Project Overview</a>
 
+<a href="https://lenjason.github.io/projects/MonsterStrikeDB.exe">Executable of Database</a>
