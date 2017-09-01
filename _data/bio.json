@@ -74,32 +74,34 @@
       "endDate": "Present",
       "gpa": "",
       "courses": [
+        "ICS 311",
+        "ICS 314"
       ]
     }
   ],
   "work": [
     {
-      "company": "UH Manoa Board of Publications",
-      "position": "Web Developer",
+      "company": "Leeward Community College",
+      "position": "Lecturer",
       "website": "",
-      "startDate": "2015-08-01",
+      "startDate": "2017-01-01",
       "endDate": "Present",
-      "summary": "Head of online presence for Ka Leo",
+      "summary": "",
       "highlights": [
-        "Maintain, update, and oversee official college newspaper website",
-        "Drive, design and build student-community projects for UH Manoa"
       ]
     },
     {
-      "company": "UH Information Technology Services",
-      "position": "Help Desk Consultant",
-      "website": "http://www.hawaii.edu/its/",
-      "startDate": "2015-01-01",
-      "endDate": "2016-03-15",
-      "summary": "",
+      "company": "Leeward Community College",
+      "position": "Student Help Desk - Student Manager",
+      "website": "",
+      "startDate": "2016-09-01",
+      "endDate": "2016-12-31",
+      "summary": "Started up the Leeward Community College Student Help Desk",
       "highlights": [
-        "Troubleshoot software, hardware and networking issues over the phone",
-        "Answer phone and email responses to the ITS Help Desk"
+        "Created a security plan and operations manuals",
+        "Creaing policies and procedures manual",
+        "Troubleshoot software, hardware and networking issues",
+        "Answer phone and email responses to the Student Help Desk"
       ]
     }
   ],
