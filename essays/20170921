@@ -1,0 +1,23 @@
+---
+layout: essay
+type: essay
+title: Old Dogs and New Libraries
+date: 2017-09-21
+labels:
+  - Learning
+  - JavaScript
+  - Underscore
+  - Coding Standards
+---
+<p> 
+I have heard it said by some interviewers for programming jobs that all programmers needed to know how to program 5 things.  User Input, System Outputs,  Loops, Conditionals, and File Management (reading and writing to a file).  All this time, I thought that I had most of these things down.  Yes, the languages changed but the basic form and theory of programming always remained constant.  Well, I guess I have grown complacent with my programming.  That is why when I was introduced to this new JavaScript library called Underscore, everything came to a dead halt.  This new library does not use loops or conditional statements in a traditional sense of programming.
+</p>
+<p>
+This “new” JavaScript library called Underscore, is a library addition that allows for functional programming.  (Functional programming allows a programmer to simplify their coding by grouping similar code using functions with a variable input.)  I can easily see the reasons why this way of programming is useful, BUT that does not mean that I have had an easy time trying to learn it.  In every instance where I have been told to use an underscore function, the only thing I can think of is that I could easily do it using a loop or conditional statement.  The difficulty comes in two parts.  First of all, like an old dog, I have been well trained in the use of loops and the conditional statements.  Sure, I sometime struggle with specific syntax for various languages, but I generally know where I am going.  So this first struggle is the struggle with a paradigm shift to be able to “see” the loops and conditional in new ways.  The second struggle with this new library is that because I am unfamiliar with all the various components, I am not sure as to the full capabilities.  When I am presented with a problem, I know what I am supposed to do, but am unfamiliar with the specific function that will allow me to do it.  This seems like the easier struggle as if I would have the time to read the entire library, I would be able to establish at least a loose connection between the function names and their capabilities.  From there, when I would need to perform a particular function, I would then be able to use the table of contents for the Underscore library to find the needed function and then be able to study it further.
+</p>
+<p>
+The other issue that I have been dealing with in the last few weeks is learning quite a few new programs and IDEs.  So far, I have been introduced to over 6 new programs or environments that I have been required to use and understand, all in less than 1 month.  To severely compound this issue is that the primary directions to their usage for what is required is all done from an older Apple framework and the transference of directions are not one-to-one.  I have spent hours of research and trouble shooting that might have been a non-issue if I were studying these topics on an Apple computer.  On the other hand, this extra studies in how each program and IDE works will probably help me to better understand just how to work in these programs and exactly what I am doing then by blindly following a set of step-by-step instructions.
+</p>
+<p>
+This brings us around to one of the highlights of studies for this past couple of weeks, Coding Standards.  Having begun to learn coding “back in the day”, coding standards was a stronger focus then appears to be now.  Before the use of these modern compilers and IDE’s, you needed to trouble shoot by hand.  One of the biggest ways to do this was to adhere to strict coding standards.  These coding standards helped by keeping things organized.  While the might seem tedious and nit-picky to some, having the correct indentations and spacing significantly helped to find that missing parenthesis that left a loop open that one extra line that killed your program.
+</p>
