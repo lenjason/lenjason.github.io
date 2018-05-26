@@ -9,7 +9,7 @@
     "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Spring, 2020.",
     "location": {
       "address": "",
-      "postalCode": "96701",
+      "postalCode": "96822",
       "city": "Honolulu",
       "countryCode": "USA",
       "region": "Hawaii"
@@ -93,16 +93,6 @@
     }
   ],
   "work": [
-    {
-      "company": "Leeward Community College",
-      "position": "Lecturer",
-      "website": "",
-      "startDate": "2017-01-01",
-      "endDate": "Present",
-      "summary": "",
-      "highlights": [
-      ]
-    },
     {
       "company": "Leeward Community College",
       "position": "Student Help Desk - Student Manager",
