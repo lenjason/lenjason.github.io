@@ -44,14 +44,15 @@ Plotly.d3.tsv("naplesCholeraAgeSexData.tsv", function(err, rows){
         align: "center",
         line: {width: 1, color: 'rgb(227,26,28)'},
         fill: {color: ['rgb(51,51,255)']},
-        font: {family: "Arial", size: 13, color: "white"}
+        font: {family: "Arial", size: 20, color: "white"}
       },
       cells: {
         values: cellNumbers,
-        align: ["center", "center"],
+        align: ["right"],
         line: {color: "black", width: 1},
+        height: 30,
         fill: {color: ['rgb(85,221,221)', 'rgba(51,255,255, 0.65)']},
-        font: {family: "Arial", size: 11, color: ["black"]}
+        font: {family: "Arial", size: 16, color: ["black"]}
       },
     }
   
@@ -80,7 +81,7 @@ Plotly.d3.tsv("naplesCholeraAgeSexData.tsv", function(err, rows){
     /* Defining layouts */ 
     var layout = {
       title: "Male and Female Fatalities",
-      height: 400,
+      height: 500,
       showlegend: true,
     }
 

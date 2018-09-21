@@ -56,14 +56,15 @@ Plotly.d3.csv("UKcensus1851.csv", function(err, rows){
         align: "center",
         line: {width: 1, color: 'rgb(227,26,28)'},
         fill: {color: ['rgb(51,51,255)']},
-        font: {family: "Arial", size: 13, color: "white"}
+        font: {family: "Arial", size: 20, color: "white"}
       },
       cells: {
         values: cellNumbers,
-        align: ["center", "center"],
+        align: ["right"],
         line: {color: "black", width: 1},
+        height: 30,
         fill: {color: ['rgb(85,221,221)', 'rgba(51,255,255, 0.65)']},
-        font: {family: "Arial", size: 11, color: ["black"]}
+        font: {family: "Arial", size: 16, color: ["black"]}
       },
     }
  
@@ -92,7 +93,7 @@ Plotly.d3.csv("UKcensus1851.csv", function(err, rows){
     /* Defining layouts */ 
     var layout = {
       title: "UK Population Data from 1851",
-      height: 400,
+      height: 500,
       showlegend: true,
     }
 
@@ -111,6 +112,22 @@ Plotly.d3.csv("UKcensus1851.csv", function(err, rows){
             y: 0.95
         },
     }
+    
+    var ultimateColors = [
+        ['rgb(56, 75, 126)', 'rgb(18, 36, 37)', 'rgb(34, 53, 101)', 'rgb(36, 55, 57)', 'rgb(6, 4, 4)'],
+        ['rgb(177, 127, 38)', 'rgb(205, 152, 36)', 'rgb(99, 79, 37)', 'rgb(129, 180, 179)', 'rgb(124, 103, 37)'],
+        ['rgb(33, 75, 99)', 'rgb(79, 129, 102)', 'rgb(151, 179, 100)', 'rgb(175, 49, 35)', 'rgb(36, 73, 147)'],
+        ['rgb(146, 123, 21)', 'rgb(177, 180, 34)', 'rgb(206, 206, 40)', 'rgb(175, 51, 21)', 'rgb(35, 36, 21)']
+    ];
+
+    var pieColor = [
+        ['DarkGreen','Green','SeaGreen','MediumSeaGreen','SpringGreen','LightGreen',
+            'PaleGreen','Khaki','LightYellow'],
+        ['Maroon','Brown','Sienna','OrangeRed','Chocolate','DarkOrange','Orange',
+            'SandyBrown','NavajoWhite'],
+        ['rgb(94,53,177)','rgb(103,58,183)','rgb(116,72,189)','rgb(126,87,194)','rgb(149,117,205)',
+        'rgb(179,157,219)','rgb(193,176,226','rgb(209,196,233)','rgb(237,231,246)']
+    ];
 
     var pieChart1 = [
         {
@@ -118,7 +135,7 @@ Plotly.d3.csv("UKcensus1851.csv", function(err, rows){
         labels: cellNumbers[0],
         type: 'pie',
         name: 'Male Population',
-        marker: {colors: 'pieColor'},
+        marker: {colors: pieColor[0]},
         hoverinfo: 'label+percent+name'
         },
     ]
@@ -129,7 +146,7 @@ Plotly.d3.csv("UKcensus1851.csv", function(err, rows){
         labels: cellNumbers[0],
         type: 'pie',
         name: 'Female Population',
-        marker: {colors: 'pieColor'},
+        marker: {colors: pieColor[1]},
         hoverinfo: 'label+percent+name'
         },
     ]
@@ -140,7 +157,7 @@ Plotly.d3.csv("UKcensus1851.csv", function(err, rows){
         labels: cellNumbers[0],
         type: 'pie',
         name: 'Total Population',
-        marker: {colors: 'pieColor'},
+        marker: {colors: pieColor[2]},
         hoverinfo: 'label+percent+name'
         },
     ]
@@ -166,10 +183,6 @@ Plotly.d3.csv("UKcensus1851.csv", function(err, rows){
         height: 1000,
         showlegend: true,
     };
-
-    var pieColor = ['DarkGreen','Green','SeaGreen',
-    'MediumSeaGreen','SpringGreen','LightGreen','PaleGreen',
-    'Khaki','LightYellow'];
 
 
     Plotly.plot('table3', data, layout);
