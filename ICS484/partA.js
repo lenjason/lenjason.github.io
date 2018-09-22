@@ -68,7 +68,7 @@ Plotly.d3.csv("choleraDeathLocations.csv", function(err, rows){
 
     /* Defining layouts */ 
     var layout = {
-      title: "Cholera Death in London 1854",
+      title: "Cholera Death in London 1854 by Longitude and Latitude",
       height: 500,
       showlegend: true,
     }
@@ -129,7 +129,7 @@ Plotly.d3.csv("choleraDeathLocations.csv", function(err, rows){
     
         /* Defining layouts */ 
         var layout = {
-          title: "Water Pump Coordinates",
+          title: "1854 London Water Pump Coordinates",
           height: 500,
           showlegend: true,
         }
@@ -157,11 +157,16 @@ Plotly.d3.csv("choleraDeathLocations.csv", function(err, rows){
                 fillOpacity: 0.5,
                 radius: cellNumbers[0][i]  // represents the number of deaths
             }).addTo(map);
+            circle.bindPopup('Deaths: ' + cellNumbers[0][i] + 
+                '<br>Latitude : ' + cellNumbers[2][i] + 
+                '<br>Longitude:' + cellNumbers[1][i]);
         }
 
         // Adding markers for pump locations
         for (var i = 0; i < cellNumbers2[1].length; i++) {
             var marker = L.marker([cellNumbers2[1][i], cellNumbers2[0][i]]).addTo(map);
+            marker.bindPopup('<br>Latitude : ' + cellNumbers2[1][i] + 
+                '<br>Longitude:' + cellNumbers2[0][i]);
         }
 
 
