@@ -88,7 +88,7 @@ Plotly.d3.tsv("choleraDeaths.tsv", function(err, rows){
         x: cellNumbers[0],
         y: cellNumbers[1],
         line: {
-            color: "Pink",
+            color: "Orange",
             dash: "dot",
         }
     };
@@ -100,7 +100,7 @@ Plotly.d3.tsv("choleraDeaths.tsv", function(err, rows){
         x: cellNumbers[0],
         y: cellNumbers[3],
         line: {
-            color: "Pink",
+            color: "Orange",
             dash: "line",
         }
     };

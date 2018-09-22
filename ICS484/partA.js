@@ -159,7 +159,7 @@ Plotly.d3.csv("choleraDeathLocations.csv", function(err, rows){
             }).addTo(map);
             circle.bindPopup('Deaths: ' + cellNumbers[0][i] + 
                 '<br>Latitude : ' + cellNumbers[2][i] + 
-                '<br>Longitude:' + cellNumbers[1][i]);
+                '<br>Longitude:' + cellNumbers[1][i]); 
         }
 
         // Adding markers for pump locations
