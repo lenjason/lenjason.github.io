@@ -1,10 +1,9 @@
 /* 
-    For a C you must:
-    1. Read in the choleraDeaths.tsv data file.
-    2. Create a Plot.ly table of attacks (an attack is when someone exhibits symptoms of cholera) and deaths by date, showing numbers per day and totals of both on each day.
-    3. Create a line chart showing time on the x-axis vs number of attacks on this day, deaths on this day, total attacks up to this day, and total deaths up to this day, making a total of 4 lines on the chart.
-    4. Allow the user to bring up information on the webpage about who wrote the project, what libraries are being used to visualize it, where the data came from, etc.
-    5. The charts should be scaled to fit on a 1920x1080 screen.
+For a B you must:
+1. Read in naplesCholeraAgeSexData.tsv showing fatality numbers for men and women in different age groups from cholera in the same time period in Naples.
+2. Show a table of age categories for male fatalities and female fatalities (i.e. one column or male and another for female).
+3. Show a bar chart of age categories for male fatalities and another for female fatalities
+... Continued in partB2.js
 */
 
 /* Read in the choleraDeaths.tsv */

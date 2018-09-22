@@ -1,8 +1,6 @@
 /* 
 For a B you must:
-1. Read in naplesCholeraAgeSexData.tsv showing fatality numbers for men and women in different age groups from cholera in the same time period in Naples.
-2. Show a table of age categories for male fatalities and female fatalities (i.e. one column or male and another for female).
-3. Show a bar chart of age categories for male fatalities and another for female fatalities
+... Continued from partB.js
 4. Read in UKcensus1851.csv showing the number of men and women in different age groups in that same time period in the UK.
 5. Show a table of the census age data for men and women (i.e. one column for men and another for women) including the overall totals.
 6. Show a pie chart of the census age data for men and another for women.
